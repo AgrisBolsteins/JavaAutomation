@@ -35,8 +35,13 @@
       <file leaf-file-name="signup.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/features/signup.feature">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="210">
               <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+=======
+            <state relative-caret-position="240">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -44,8 +49,37 @@
       <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test_runner/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="165">
               <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+=======
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testRunner/testRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hooks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,6 +111,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test_runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/features/signup.feature" />
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/src/test/java/support/hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testRunner/testRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/SignupStep.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/signup.feature" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -259,7 +301,11 @@
       <workItem from="1530681816939" duration="329000" />
       <workItem from="1530853364024" duration="370000" />
       <workItem from="1531159082014" duration="3059000" />
+<<<<<<< Updated upstream
       <workItem from="1531163458322" duration="1655000" />
+=======
+      <workItem from="1531163458322" duration="5369000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -272,7 +318,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="5413000" />
+=======
+    <option name="totallyTimeSpent" value="9127000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -291,10 +341,17 @@
       <window_info anchor="right" id="CDI" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< Updated upstream
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49930555" visible="true" weight="0.32900944" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24305555" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49930555" visible="true" weight="0.32848486" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
+>>>>>>> Stashed changes
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -403,6 +460,26 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/signup.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
   </component>
   <component name="masterDetails">
     <states>
