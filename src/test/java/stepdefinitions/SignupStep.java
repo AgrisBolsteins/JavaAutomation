@@ -1,6 +1,6 @@
 package stepdefinitions;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -8,23 +8,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class SignupStep {
-    @Given("^I have opened homepage$")
-    public void iHaveOpenedHomepage() throws Throwable {
-        System.out.println("OPEN HOMEPAGE");
-        openedHomepage();
-    }
 
-    @When("^I select my acc menu$")
-    public void iSelectMyAccMenu() throws Throwable {
-        System.out.println("SELECT ACCOUNT MENU");
-        selectMyAccountMenu();
-    }
-
-    @And("^I select sign-up button$")
-    public void iSelectSignUpButton() throws Throwable {
-        System.out.println("SELECT SIGN UP BUTTON");
-        selectSignUpButton();
-    }
+    // positive steps
 
     @And("^I enter First name$")
     public void iEnterFirstName() throws Throwable {
@@ -56,7 +41,7 @@ public class SignupStep {
         enterPassword();
     }
 
-    @And("^confirm password$")
+    @And("^I confirm password$")
     public void iConfirmPassword() throws Throwable {
         System.out.println("CONFIRM PASSWORD");
         confirmPassword();
@@ -72,5 +57,25 @@ public class SignupStep {
     public void userAccountPageIsOpened() throws Throwable {
         System.out.println("ACCOUNT OPENED");
         accountPageIsOpened();
+    }
+
+    // negative steps
+
+    @And("^I enter unformatted email address$")
+    public void iEnterUnformattedEmailAddress() throws Throwable {
+        System.out.println("UNFORMATTED EMAIL ADDRESS");
+        unformattedEmailAddress();
+    }
+
+    @And("^I enter unformatted password$")
+    public void iEnterUnformattedPassword() throws Throwable {
+        System.out.println("UNFORMATTED PASSWORD");
+        unformattedPassword();
+    }
+
+    @Then("^Unsuccessful sign-up error message is displayed$")
+    public void unsuccessfulSignUpErrorMessageIsDisplayed() throws Throwable {
+        System.out.println("SIGN-UP ERROR MESSAGE");
+        signupErrorMessage();
     }
 }
