@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07a9b40a-b934-42ec-8c61-7aa57f7ba30a" name="Default" comment="" />
+    <list default="true" id="07a9b40a-b934-42ec-8c61-7aa57f7ba30a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_runner/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/signup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/signup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/signup.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test_runner/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,22 +42,27 @@
         </entry>
       </file>
       <file leaf-file-name="signup.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/features/signup.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/signup.feature">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
             <state relative-caret-position="210">
+<<<<<<< HEAD
               <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
 =======
             <state relative-caret-position="240">
               <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
 >>>>>>> Stashed changes
+=======
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test_runner/TestRunner.java">
+      <file leaf-file-name="SignupStep.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupStep.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             <state relative-caret-position="165">
               <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
@@ -58,6 +72,10 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="120">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
             </state>
           </provider>
         </entry>
@@ -79,9 +97,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,14 +136,20 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test_runner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/features/signup.feature" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
         <option value="$PROJECT_DIR$/src/test/java/support/hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/testRunner/testRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/SignupStep.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/test/resources/features/signup.feature" />
 >>>>>>> Stashed changes
+=======
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
       </list>
     </option>
   </component>
@@ -157,35 +188,43 @@
               <item name="webautomationwithjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webautomationwithjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webautomationwithjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test_runner" type="462c0819:PsiDirectoryNode" />
+              <item name="stepdefinitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webautomationwithjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testRunner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webautomationwithjava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webautomationwithjava" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -204,6 +243,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test_runner" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,14 +272,14 @@
       <module name="JavaAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test_runner.*" />
+          <option name="PATTERN" value="test_runner.test_runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test_runner" />
-      <option name="MAIN_CLASS_NAME" value="test_runner.TestRunner" />
+      <option name="PACKAGE_NAME" value="test_runner.test_runner" />
+      <option name="MAIN_CLASS_NAME" value="test_runner.test_runner.TestRunner" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -301,11 +348,15 @@
       <workItem from="1530681816939" duration="329000" />
       <workItem from="1530853364024" duration="370000" />
       <workItem from="1531159082014" duration="3059000" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <workItem from="1531163458322" duration="1655000" />
 =======
       <workItem from="1531163458322" duration="5369000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1531163458322" duration="5054000" />
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
     </task>
     <servers />
   </component>
@@ -316,13 +367,20 @@
     <history-entry file="TestRunner - 2018.07.09 at 22h 41m 41s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRunner - 2018.07.09 at 22h 48m 56s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="5413000" />
 =======
     <option name="totallyTimeSpent" value="9127000" />
 >>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="8812000" />
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -339,8 +397,9 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.33818182" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49930555" visible="true" weight="0.32900944" />
       <window_info id="Capture Tool" order="2" />
@@ -352,6 +411,12 @@
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
 >>>>>>> Stashed changes
+=======
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49930555" visible="true" weight="0.32848486" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -389,7 +454,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/features/signup.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/signup.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
@@ -443,23 +508,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/features/signup.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_runnerr/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test_runner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state>
+          <caret selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/support/hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/signup.feature">
@@ -473,13 +546,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testRunner/testRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/signup.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/SignupStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> d71dace81f640385f31f4f6fe4d91865d6535500
   </component>
   <component name="masterDetails">
     <states>
