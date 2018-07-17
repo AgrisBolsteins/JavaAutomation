@@ -47,9 +47,9 @@ public class SignupStep {
         confirmPassword();
     }
 
-    @And("^I select sign up button$")
+    @And("^I select validate sign-up button$")
     public void iSelectSignUpButton() throws Throwable {
-        System.out.println("SELECT SIGNUP BUTTON");
+        System.out.println("SELECT VALIDATE SIGN-UP BUTTON");
         selectSignUpButton();
     }
 
