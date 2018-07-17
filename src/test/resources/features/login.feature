@@ -16,4 +16,5 @@ Feature: Login feature
     And I select login button
     And I enter wrong login email address
     And I enter wrong login password
+    And I select validate LOGIN button
     Then Unsuccessful login error message is displayed
