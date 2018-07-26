@@ -6,58 +6,66 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import general.User;
+import pages.signup.SignupPageObject;
+
+import static utils.RandomGenerator.generateRandomEmail;
+import static utils.RandomGenerator.generateRandomPhoneNumber;
+import static utils.RandomGenerator.generateRandomString;
+
+
 
 public class SignupStep {
+
+    private SignupPageObject signupPage = new SignupPageObject();
+    private User user = new User();
+    private User userTwo = new User("Janis", "Berzins");
 
     // positive steps
 
     @And("^I enter First name$")
     public void iEnterFirstName() throws Throwable {
         System.out.println("ENTER FIRST NAME");
-        enterFirstName();
+        signupPage.enterFirstName(user.getFirstName());
     }
 
     @And("^I enter Last name$")
     public void iEnterLastName() throws Throwable {
         System.out.println("ENTER LAST NAME");
-        enterLastName();
+        signupPage.enterLastName(user.getLastName());
     }
 
     @And("^I enter mobile phone number$")
     public void iEnterMobilePhoneNumber() throws Throwable {
         System.out.println("ENTER MOBILE NUMBER");
-        enterMobilePhoneNumber();
+        signupPage.enterMobileNumber(user.getMobileNumber());
     }
 
     @And("^I enter email address$")
     public void iEnterEmailAddress() throws Throwable {
         System.out.println("ENTER EMAIL ADDRESS");
-        enterEmailAddress();
+        signupPage.enterEmail(user.getEmailAddress());
     }
 
     @And("^I enter password$")
     public void iEnterPassword() throws Throwable {
         System.out.println("ENTER PASSWORD");
-        enterPassword();
+        signupPage.enterPassword(user.getPassword());
     }
 
     @And("^I confirm password$")
     public void iConfirmPassword() throws Throwable {
         System.out.println("CONFIRM PASSWORD");
-        confirmPassword();
+        signupPage.enterConfirmPassword(user.getPassword());
     }
 
     @And("^I select validate sign-up button$")
     public void iSelectSignUpButton() throws Throwable {
         System.out.println("SELECT VALIDATE SIGN-UP BUTTON");
-        selectSignUpButton();
+        signupPage.selectValidateSignupButton();
     }
 
-    @Then("^user account page is opened$")
-    public void userAccountPageIsOpened() throws Throwable {
-        System.out.println("ACCOUNT OPENED");
-        accountPageIsOpened();
-    }
+
 
     // negative steps
 
