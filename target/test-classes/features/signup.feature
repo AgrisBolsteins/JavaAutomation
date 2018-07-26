@@ -1,7 +1,7 @@
 Feature: Sign-up feature
   This feature is about creating new acc in the system
 
-  Scenario: Successfull sign-up
+  Scenario: Successful sign-up
     Given I have opened homepage
     When I select my acc menu
       And I select sign-up button
@@ -10,6 +10,15 @@ Feature: Sign-up feature
       And I enter mobile phone number
       And I enter email address
       And I enter password
-      And confirm password
-      And I select sign up button
+      And I confirm password
+      And I select validate sign-up button
     Then user account page is opened
+
+  Scenario: Unsuccessful sing-up
+    Given I have opened homepage
+    When I select my acc menu
+    And I select sign-up button
+    And I enter unformatted email address
+    And I enter unformatted password
+    And I select validate sign-up button
+    Then Unsuccessful sign-up error message is displayed

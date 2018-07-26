@@ -5,8 +5,11 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import pages.login.LoginPageObject;
 
 public class LoginSteps {
+
+    public LoginPageObject loginPage = new LoginPageObject();
 
     // positive steps
     
