@@ -14,7 +14,7 @@ public class landingScreenSteps {
     @Given("^I have opened homepage$")
     public void iHaveOpenedHomepage() throws Throwable {
         System.out.println("OPEN HOMEPAGE");
-        openedHomepage();
+        homePage.visibleMyAccountButton();
     }
 
     @When("^I select my acc menu$")

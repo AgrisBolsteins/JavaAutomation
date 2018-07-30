@@ -1,1 +1,6 @@
+stepdefinitions/landingScreenSteps.class
+stepdefinitions/SignupStep.class
+stepdefinitions/AccountSteps.class
+testRunner/testRunner.class
+stepdefinitions/LoginSteps.class
 stepdefinitions/hooks.class

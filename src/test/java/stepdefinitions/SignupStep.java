@@ -59,31 +59,10 @@ public class SignupStep {
         signupPage.enterConfirmPassword(user.getPassword());
     }
 
-    @And("^I select validate sign-up button$")
+    @And("^I select validate SIGN-UP button$")
     public void iSelectSignUpButton() throws Throwable {
         System.out.println("SELECT VALIDATE SIGN-UP BUTTON");
         signupPage.selectValidateSignupButton();
     }
 
-
-
-    // negative steps
-
-    @And("^I enter unformatted email address$")
-    public void iEnterUnformattedEmailAddress() throws Throwable {
-        System.out.println("UNFORMATTED EMAIL ADDRESS");
-        unformattedEmailAddress();
-    }
-
-    @And("^I enter unformatted password$")
-    public void iEnterUnformattedPassword() throws Throwable {
-        System.out.println("UNFORMATTED PASSWORD");
-        unformattedPassword();
-    }
-
-    @Then("^Unsuccessful sign-up error message is displayed$")
-    public void unsuccessfulSignUpErrorMessageIsDisplayed() throws Throwable {
-        System.out.println("SIGN-UP ERROR MESSAGE");
-        signupErrorMessage();
-    }
 }

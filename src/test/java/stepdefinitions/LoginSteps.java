@@ -1,53 +1,39 @@
 package stepdefinitions;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+
+import general.User;
 import pages.login.LoginPageObject;
 
 public class LoginSteps {
 
-    public LoginPageObject loginPage = new LoginPageObject();
-
-    // positive steps
+    private LoginPageObject loginPage = new LoginPageObject();
+    private User user2 = new User();
     
     @And("^I enter login email address$")
     public void iEnterLoginEmailAddress() throws Throwable {
         System.out.println("ENTER LOGIN EMAIL");
-        enterLoginEmailAddress();
+        loginPage.enterEmail(user2.getEmailAddress());
     }
 
     @And("^I enter login password$")
     public void iEnterLoginPassword() throws Throwable {
         System.out.println("ENTER LOGIN PASSWORD");
-        enterLoginPassword();
+        loginPage.enterPassword(user2.getPassword());
+    }
+
+    @And("^I check Remember me checkbox$")
+    public void iCheckRememberMeCheckbox() throws Throwable {
+        System.out.println("CHECK REMEMBER ME");
+        loginPage.selectRememberMeTick();
     }
 
     @And("^I select validate LOGIN button$")
     public void iSelectValidateLOGINButton() throws Throwable {
         System.out.println("SELECT VALIDATE LOGIN BUTTON");
-        selectValidateLOGINButton();
+        loginPage.selectValidateLoginButton();
     }
 
-    //negative steps
 
-    @And("^I enter wrong login email address$")
-    public void iEnterWrongEmailAddress() throws Throwable {
-        System.out.println("ENTER LOGIN WRONG EMAIL");
-        enterWrongEmailAddress();
-    }
 
-    @And("^I enter wrong login password$")
-    public void iEnterWrongPassword() throws Throwable {
-        System.out.println("ENTER WRONG LOGIN PASSWORD");
-        enterWrongPassword();
-    }
-
-    @Then("^Unsuccessful login error message is displayed$")
-    public void unsuccessfulLoginErrorMessageIsDisplayed() throws Throwable {
-        System.out.println("UNSUCCESSFUL LOGIN");
-        unsuccessfulLoginError();
-    }
 }

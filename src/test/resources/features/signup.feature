@@ -11,14 +11,5 @@ Feature: Sign-up feature
       And I enter email address
       And I enter password
       And I confirm password
-      And I select validate sign-up button
+      And I select validate SIGN-UP button
     Then user account page is opened
-
-  Scenario: Unsuccessful sing-up
-    Given I have opened homepage
-    When I select my acc menu
-    And I select sign-up button
-    And I enter unformatted email address
-    And I enter unformatted password
-    And I select validate sign-up button
-    Then Unsuccessful sign-up error message is displayed
