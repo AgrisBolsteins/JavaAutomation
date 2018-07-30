@@ -1,5 +1,6 @@
 package pages.header;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import pages.login.LoginPageObject;
 import pages.signup.SignupPageObject;
@@ -14,11 +15,9 @@ public class NavigationPageObject {
     private SelenideElement getMyAccountButton() {
         return $("test");
     }
-
     private SelenideElement getSignupButton() {
         return $("test");
     }
-
     private SelenideElement getLoginButton() {
         return $("test");
     }
@@ -37,5 +36,9 @@ public class NavigationPageObject {
     public LoginPageObject selectLoginButton() {
         getLoginButton().click();
         return page(LoginPageObject.class);
+    }
+
+    public void visibleMyAccountButton() {
+        getMyAccountButton().shouldBe(Condition.visible);
     }
  }

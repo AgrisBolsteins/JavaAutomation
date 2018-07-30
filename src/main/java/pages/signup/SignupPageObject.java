@@ -10,7 +10,7 @@ public class SignupPageObject {
 
     // Signup page elements
 
-    private SelenideElement getFirstNameField() {
+    private  SelenideElement getFirstNameField() {
         return $("test");
     }
     private  SelenideElement getLastNameField() {
@@ -62,8 +62,5 @@ public class SignupPageObject {
         getValidateSignupButton().click();
         return page(AccountPageObject.class);
     }
-
-
-
 
 }
