@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 
 import general.User;
@@ -33,7 +34,5 @@ public class LoginSteps {
         System.out.println("SELECT VALIDATE LOGIN BUTTON");
         loginPage.selectValidateLoginButton();
     }
-
-
 
 }

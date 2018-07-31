@@ -34,4 +34,10 @@ public class landingScreenSteps {
         System.out.println("SELECT LOGIN BUTTON");
         homePage.selectLoginButton();
     }
+
+    @Then("^Navigation page is opened$")
+    public void navigationPageIsOpened() throws Throwable {
+        System.out.println("LANDING SCREEN IS OPENED");
+        homePage.visibleMyAccountButton();
+    }
 }
